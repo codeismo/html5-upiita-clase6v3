@@ -124,6 +124,7 @@ function jugar() {
 		alert("Game Over");
 		//publicar que perdi
 		Q.stageScene("nivel1");
+		MIAPP.publicar(" perdio");
 	});
 
 	//Escena Ganar
@@ -131,6 +132,7 @@ function jugar() {
 		alert("Ganaste!!");
 		//publicar que gane!
 		Q.stageScene("nivel1");
+		MIAPP.publicar(" gano");
 	});
 
 }
